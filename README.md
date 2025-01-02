@@ -12,7 +12,7 @@ This project is an end-to-end data analysis solution designed to extract critica
 ## Project Steps
 
 ### 1. Set Up the Environment
-   - **Tools Used**: Visual Studio Code (VS Code), Python, SQL (MySQL and PostgreSQL)
+   - **Tools Used**: Visual Studio Code (VS Code), Python, SQL (MySQL)
    - **Goal**: Create a structured workspace within VS Code and organize project folders for smooth development and data handling.
 
 ### 2. Set Up Kaggle API
@@ -59,39 +59,14 @@ This project is an end-to-end data analysis solution designed to extract critica
      - Identifying best-selling product categories.
      - Sales performance by time, city, and payment method.
      - Analyzing peak sales periods and customer buying patterns.
-     - Profit margin analysis by branch and category.
-   - **Documentation**: Keep clear notes of each query's objective, approach, and results.
-
-### 10. Project Publishing and Documentation
-   - **Documentation**: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
-   - **Project Publishing**: Publish the completed project on GitHub or any other version control platform, including:
-     - The `README.md` file (this document).
-     - Jupyter Notebooks (if applicable).
-     - SQL query scripts.
-     - Data files (if possible) or steps to access them.
-
----
-
+     - Profit margin analysis by branch and category
 ## Requirements
 
 - **Python 3.8+**
-- **SQL Databases**: MySQL, PostgreSQL
+- **SQL Databases**: MySQL
 - **Python Libraries**:
   - `pandas`, `numpy`, `sqlalchemy`, `mysql-connector-python`, `psycopg2`
 - **Kaggle API Key** (for data downloading)
-
-## Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone <repo-url>
-   ```
-2. Install Python libraries:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Set up your Kaggle API, download the data, and follow the steps to load and analyze.
-
 ---
 
 ## Project Structure
